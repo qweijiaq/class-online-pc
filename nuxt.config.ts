@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     ],
   },
   // 配置 UnoCSS
-  modules: ["@unocss/nuxt"],
+  modules: ["@unocss/nuxt", "@pinia/nuxt"],
   unocss: {
     uno: true, // 激活unocss
     attributify: true, // 激活属性化模式
